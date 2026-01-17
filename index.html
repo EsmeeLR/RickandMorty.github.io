@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rick And Morty App</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
+
+<header class="main-header">
+    <h1>Rick and Morty Explorer</h1>
     <input type="text" id="search" placeholder="Buscar personaje...">
-    <button id="searchBtn">Buscar</button>
-    <div class ="container"> </div>
+</header>
+
+<div class="container"></div>
+<div class="details invisible">
+    <div></div>
+</div>
+
+<body>
+    <div class="container"> </div>
     <div class="details invisible">
         <div></div>
         <button onclick="switchDiv()">Regresar</button>
-</div>
+    </div>
     <script src="./app.js"></script>
 </body>
+
 </html>
